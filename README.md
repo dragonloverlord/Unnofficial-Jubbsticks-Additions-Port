@@ -42,10 +42,14 @@ There are two supported ways of installing the mod and which one you use will li
 # **Differences & Feature Changes**
 Obviously some stuff had to change to get things working again. Thankfully though it's required much less in terms of breaking changes than expected. So I'll simply keep a list of the confirmed / expected differences from the original here for now.
 
+### Added
+* **Stackable Items**: Item stacks have been increased to 254 (the max limit) and Fish, Insects, & Dive fish all stack now as do other things when possible like garbage (boots, tires. etc.) & clams.
+
 ### Changed
 * **Bait Bulk Crafting**: Technically ACNH now supports bulk crafting natively, but I did attempt to port the changes over anyway.
 * **Bait Bulk Crafting Nook Miles Achievement**: Due to bulk crafting being a standard feature now there's a good chance this Nook Miles Achievement will simply be removed as it's borderline irrelevant / serves no purpose anymore.
 * **Hotel DIY Deliveries**: Mod Added Tool & Balloon DIY recipes have been manually flagged as being invalid for the new Hotel DIY Deliveries feature so they don't show up as requests since they use the rare and hard to get gemstones from the mod and if enabled show up way too often as a request and do so at to high a quantity to be reasonably completed.
+* **Tool Durability**: All tools are unbreakable now. In the future I may consider making a version with only the gold & gem tools unbreakable but for debugging / development simply making them unbreakable was the easiest option for the time being.
 
 ### Removed
 * **2 Bananas per Tree**: Relied on an external third-party exeFS patch that is no longer available.
