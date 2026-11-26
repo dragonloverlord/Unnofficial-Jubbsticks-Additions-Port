@@ -27,6 +27,6 @@ System
 
 **IMPORTANT** RSTB Patch Info (ResourceSizeTable.srsizetable)  
 
-The mod comes with an RSTB file (in the System folder) that makes the game perform MUCH better than otherwise, however it makes the mod incompatible with other mods. If you want to play with other mods active, I would suggest switching to the Universal RSTB, or creating your own RSTB patch by using the program Heaven Tool by Rafacasari. The mod may have issues loading icons, dialouge, and some models if you play with Universal RSTB instead of a proper patch.
+The mod comes with an RSTB file (in the System folder) that is required to load it's model / texture changes. If you want to use any mod that adds or changes textures / models then you'll have to generate a new ResourceSizeTable.srsizetable to avoid crashing. This can be done with Heavens Tool amongst other tools.
 
 ---

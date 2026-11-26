@@ -37,6 +37,7 @@ There are two supported ways of installing the mod and which one you use will li
 * If you have conflicting files (from other mods) while merging, I would suggest reviewing the list of [common-conflicts](https://github.com/dragonloverlord/Unnofficial-Jubbsticks-Additions-Port/blob/main/FileInfo.md) to understand what each of these files does. These tend to be important for the mod's functionality, but if you prefer the function provided by another mod you may pick and choose which files to include.
 * Make sure to back up of your saves and make a backup of any mod you plan to before you delete / overwrite anything
 * If using an emulator then you may have to adjust the load order of your mods or manually remove any conflicting files from the mod you want to be overwritten.
+* **IMPORTANT** RSTB Patch Info (ResourceSizeTable.srsizetable): The mod comes with an RSTB file (in the System folder) that is required to load it's model / texture changes. If you want to use any mod that adds or changes textures / models then you'll have to generate a new ResourceSizeTable.srsizetable to avoid crashing. This can be done with Heavens Tool amongst other tools.
 
 ---
 # **Differences & Feature Changes**
