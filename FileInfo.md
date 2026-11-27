@@ -22,6 +22,7 @@ EventFlow
 
 Model
  - None of the files which may conflict with other mods in the Model folder are necessary for the mod to function. Feel free to replace the default models with whatever you like.  
+ - If changing or replacing any models then consider generating a new RSTB patch or crashing and load issues may occur (Invisible buildings, Items suddenly becoming invisible, flashing textures, etc.). Please see RSTB Patch Info section for more info.
 
 System
  - ResourceSizeTable.srsizetable - PLEASE READ THE BELOW INFO
@@ -29,6 +30,7 @@ System
 
 **IMPORTANT** RSTB Patch Info (ResourceSizeTable.srsizetable)  
 
-The mod comes with an RSTB file (in the System folder) that is required to load it's model / texture changes. If you want to use any mod that adds or changes textures / models then you'll have to generate a new ResourceSizeTable.srsizetable to avoid crashing. This can be done with Heavens Tool amongst other tools.
+ - The mod comes with an RSTB file (in the System folder) that is required to load it's model / texture changes. If you want to use any mod that adds or changes textures / models then you'll have to generate a new ResourceSizeTable.srsizetable to avoid crashing. This can be done with Heavens Tool amongst other tools.
+ - A "romfs-files.txt" is provided for usage in the generation of an RSTB Patch if using Heavens Tool. Please consult the entry for said file in [Tools Info File](https://github.com/dragonloverlord/Unnofficial-Jubbsticks-Additions-Port/blob/main/tools/Info.md) for usage information & details.
 
 ---
